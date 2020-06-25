@@ -11,9 +11,9 @@ function App() {
 	return (
 		<div id="root">
 			<GlobalProvider>
+				<Header />
 				<div className="container">
 					<div className="info">
-						<Header />
 						<Balance />
 						<IncomeExpenses />
 						<TransactionList />
